@@ -22,13 +22,13 @@
 
 .logo {
   position: absolute;
-  left: 64px;
-  top: 30px;
 }
 
 .logo_place_header {
   width: 154px;
   height: 31px;
+  left: 64px;
+  top: 30px;
 }
   
 .header__title {
@@ -318,67 +318,3 @@
   width: 16px;
   height: 16px;
 }
-
-/*
-
-.footer {
-  display: flex;
-  min-height: 350px;
-  background-color: #1f1f1f;
-  color: white;
-}
-
-.footer__columns {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 60px auto 40px auto;
-}
-
-.footer__column_content_copyright {
-  position: relative;
-  flex-basis: 711px;
-}
-
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
-  left: 0;
-}
-
-.footer__author {
-  position: absolute;
-  margin 0;
-  bottom: 0;
-  padding: 18px auto 18px auto;
-  line-height: 25px;
-  font-size: 18px;
-}
-
-.footer__column-heading {
-  margin: 0;
-  line-height: 45px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.footer__column-links {
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  list-style-type: none;
-}
-
-.footer__column-link {
-  padding: 0;
-  text-decoration: none;
-  color: white;
-}
-
-.footer__social-icon {
-  height: 16px;
-  width: 16px;
-}
-
-*/
