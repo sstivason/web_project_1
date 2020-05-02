@@ -38,8 +38,12 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 6em;
   margin: 0.67em 0;
+}
+
+h4 {
+  font-size: 1em;
 }
 
 /* Grouping content
