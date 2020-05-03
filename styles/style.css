@@ -18,13 +18,15 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
-  position: absolute;
+  z-index: 1;
 }
 
 .logo_place_header {
+  position: absolute;
   width: 154px;
   height: 31px;
   left: 64px;
@@ -44,6 +46,8 @@
 
 .header__subtitle {
   position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
   left: 64px;
   bottom: 30px;
   width: 388px;
@@ -95,6 +99,7 @@
 
 .two-columns__brief {
   width: 175px;
+  margin-top: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -107,14 +112,18 @@
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin-top: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
+.two-columns__paragraph p:last-child {
+  margin-bottom: 0;
+}
+
 .two-columns__span-accent {
-  line-height: 30px;
+  font-weight: bold;
 }
 
 .digits {
@@ -164,13 +173,15 @@
 
 .table__heading {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
+  margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -193,7 +204,8 @@
 
 .feynman__title {
   position: relative;
-  margin: 100px auto 70px auto;
+  margin: 0 auto 70px auto;
+  padding-top: 100px;
   width: 775px;
   line-height: 1.15;
   font-size: 120px;
@@ -264,26 +276,28 @@
 
 .footer__column_content_copyright {
   position: relative;
-  margin-top: 18px;
-  margin-bottom: 18px;
   flex-basis: 711px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.footer__column_content_info .footer__column_content_social {
+.footer__column_content_info {
   flex-direction: column;
 }
 
-.logo__place_footer {
+.footer__column_content_social {
+  flex-direction: column;
+}
+
+.logo_place_footer {
   width: 183px;
   height: 35px;
   top: 0;
 }
 
 .footer__author {
-  position: absolute;
+  position: flexbox;
   margin: 0;
   bottom: 0;
   padding-top: 18px;
@@ -293,6 +307,8 @@
 }
 
 .footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
@@ -305,7 +321,7 @@
   padding-left: 0;
 }
 
-.footer__column-links a {
+.footer__link {
   line-height: 30px;
   text-decoration: none;
   font-size: 18px;
