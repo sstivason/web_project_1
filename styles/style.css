@@ -113,7 +113,7 @@
 
 .two-columns__paragraph {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -312,7 +312,8 @@
 }
 
 .footer__column-heading {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
