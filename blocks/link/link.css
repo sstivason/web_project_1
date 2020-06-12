@@ -1,0 +1,5 @@
+@import url(./_hover/link_hover.css);
+
+.link {
+  transition: opacity .4s ease-in-out;
+}

@@ -1,0 +1,5 @@
+/* Specifying space between videos by applying a left margin to only the second iframe element */
+iframe + iframe {
+  margin-left: 20px;
+  border: 0;
+}

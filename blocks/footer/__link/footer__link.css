@@ -1,0 +1,8 @@
+.footer__link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  white-space: nowrap;
+  text-decoration: none;
+  color: gray;
+}

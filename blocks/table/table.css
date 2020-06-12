@@ -1,0 +1,13 @@
+@import url(./__cell/table__cell.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+
+.table {
+  display: flex;
+  margin: auto;
+  width: 1160px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 1;
+  padding-left: 0;
+}
