@@ -14,7 +14,7 @@
         <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
           <a href="#" class="link header__link">Learn more &#8594;</a></p>
         <img src="./images/header-image.png" class="header__main-illustration" alt="Header Image">
-          <div class="header__square-pic rotation_pic-rotate"></div>
+          <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -62,10 +62,10 @@
       <section class="video">
         <h2 class="section-title">TED talks</h2>
         <p class="section-subtitle">For lovers of procrastination</p>
-        <div class="video__iframes">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video_iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+          <li><iframe class="video_iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        </ul>
       </section>
       <section class="oakley">
         <div class="two-columns">
@@ -129,7 +129,7 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Salman Khan</h3>
+          <p class="khan__author">Salman Khan</p>
           <h2 class="khan__title">The One World Schoolhouse</h2>
           <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
             students worldwide. The One World Schoolhouse is a must-read for all 
@@ -140,12 +140,12 @@
           <p class="khan__quote-author-subline">Filmmaker</p>
           <div class="khan__book-container">
             <img src="images/khan-book.png" class="khan__book-pic" alt="Photo depicting Khan's book cover">
-            <a href="#" class="link khan__buy-link">Buy book &#8594;</a>
+            <a href="#" class="link khan__buy-link">Buy book &rarr;</a>
           </div>
         </div>
       </section>
       <section class="kaufman">
-        <div class="kaufman__triangle rotation_pic-rotate"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
         <p class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</p>
         <ul class="table table_theme_dark">
@@ -194,12 +194,12 @@
       <section class="resources">
         <h2 class="section-title">Useful resources</h2>
         <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-        <div class="resources__logo-zone">
-          <img src="images/logo/resources-tedED.png" class="resources__logo" alt="TedEd logo">
-          <img src="images/logo/resources-Medium.png" class="resources__logo" alt="Medium logo">
-          <img src="images/logo/resources-dezeen.png" class="resources__logo" alt="deZeen logo">
-          <img src="images/logo/resources-goodreads.png" class="resources__logo" alt="Good reads logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" class="link"><img src="images/logo/resources-tedED.png" class="resources__logo" alt="TedEd logo"></a></li>
+          <li><a href="#" class="link"><img src="images/logo/resources-Medium.png" class="resources__logo" alt="Medium logo"></a></li>
+          <li><a href="#" class="link"><img src="images/logo/resources-dezeen.png" class="resources__logo" alt="deZeen logo"></a></li>
+          <li><a href="#" class="link"><img src="images/logo/resources-goodreads.png" class="resources__logo" alt="Good reads logo"></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">

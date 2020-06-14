@@ -1,5 +1,3 @@
-@import url(./_pic-rotate/rotation_pic-rotate.css);
-
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -7,4 +5,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }

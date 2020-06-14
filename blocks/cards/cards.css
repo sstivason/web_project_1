@@ -7,7 +7,6 @@
   width: 920px;
   margin: 0 auto 60px auto;
   display: flex;
-  flex-flow: column wrap;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
