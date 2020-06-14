@@ -6,5 +6,5 @@
 }
 
 .cards__item:nth-child(3n) {
-    margin-right: 0;
+  margin-right: 0;
 }
