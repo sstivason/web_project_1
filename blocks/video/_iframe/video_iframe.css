@@ -1,5 +1,9 @@
-/* Specifying space between videos by applying a left margin to only the second iframe element */
-iframe + iframe {
-  margin-left: 20px;
+.video_iframe {
+  width: 515px;
+  height: 316px;
   border: 0;
+}
+
+.video_iframe:nth-child(1n) {
+  margin-right: 20px;
 }

@@ -7,4 +7,5 @@
   background-color: #2f80ed;
   transform: rotate(-15deg);
   overflow: hidden;
+  z-index: -2;
 }
