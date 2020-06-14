@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -1242,3 +1243,16 @@
   </body>
 </html>
 
+=======
+# Name
+Learning How to Learn
+
+## Description
+A web page that explores the different methods for how people learn by providing insights into the research conducted by Barbara Oakley, Richard Feynman, Salman Khan, and Josh Kaufman.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Project Status
+Layout is ready for desktop viewing.  The next revision shall include responive, mobile-friendly support.
+>>>>>>> 99ca66c3f14d7f8e46dbe49d36e03a78e6b89acc
