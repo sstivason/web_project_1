@@ -4,6 +4,6 @@
   border: 0;
 }
 
-.video_iframe:nth-child(1n) {
-  margin-right: 20px;
+.video_iframe:nth-child(2n+1) {
+  margin-left: 20px;
 }
